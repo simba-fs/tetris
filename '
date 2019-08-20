@@ -1,0 +1,4 @@
+var tet = $('#tet');
+$(document).bind('keydown', 'esc', function(){
+	console.log('esc');
+});
